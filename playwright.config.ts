@@ -32,6 +32,8 @@ export default defineConfig({
     trace: 'on-first-retry',
     // testIdAttribute : 'attribute name'
     // viewport: null
+    headless:false,
+    launchOptions: {slowMo:500} // i will slows down the execution.
   },
 
   /* Configure projects for major browsers */
