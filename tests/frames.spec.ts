@@ -44,7 +44,5 @@ test("Handle inner Frames", async({page}) => {
         }
     }
     
-
-
     await page.waitForTimeout(3000);
 });
