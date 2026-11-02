@@ -33,6 +33,13 @@ export default defineConfig({
   reporter: 'html',
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
+
+    // configure screenshots
+    screenshot: 'on',
+    video: 'on', // capture the video of the test execution
+
+
+
     /* Base URL to use in actions like `await page.goto('')`. */
     // baseURL: 'http://localhost:3000',
 
